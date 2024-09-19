@@ -1,0 +1,70 @@
+.cashier {
+    font-family: Arial, sans-serif;
+    background-color: #0052A5;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .left-column {
+    width: 25%;
+    padding-right: 20px;
+  }
+  
+  .right-column {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    background-color: white;
+    border: none;
+    padding: 5px;
+  }
+  
+  .cart-section {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+    overflow-y: auto;
+  }
+  
+  .total-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+  
+  .product-card, .cart-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
